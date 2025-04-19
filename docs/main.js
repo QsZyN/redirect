@@ -4,4 +4,7 @@ if (params.get('to') ===  null){
     window.location.href="https://github.com/QsZyN/redirect";
 }else{
     window.location.replace(decodeURIComponent(params.get('to')));
+
+    history.back();
+
 }
