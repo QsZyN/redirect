@@ -5,6 +5,6 @@ if (params.get('to') ===  null){
 }else{
     window.location.replace(decodeURIComponent(params.get('to')));
 
-    history.back();
+    window.close();
 
 }
